@@ -1,0 +1,19 @@
+# Ignorar dados pesados (Isso é obrigatório para não travar o envio)
+data/
+*.csv
+*.dbc
+*.xlsx
+
+# Ignorar arquivos temporários do sistema e IDE
+.DS_Store
+.vscode/
+__pycache__/
+
+# Ignorar arquivos de checkpoint do Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Ignorar ambientes virtuais (se tiver criado venv)
+env/
+venv/
